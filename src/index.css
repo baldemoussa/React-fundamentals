@@ -1,0 +1,44 @@
+:root {
+  --hue-1: #2283d3;
+  --hue-2: #ff6b6b;
+}
+
+.show-hide-message {
+  max-width: 300px;
+    border: 1px solid #2283d3;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+    box-shadow: rgba(207, 144, 144, 0.1) 0 10px 15px -3px, rgba(129, 196, 152, 0.05) 0 4px 6px -2px;
+}
+
+.show-hide-message h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.show-hide-message button {
+  margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.show-hide-message button:hover {
+    background-color: #005fa3;
+}
+
+.show-hide-message p {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: rgb(151, 218, 218);
+    padding: 10px;
+    border-radius: 5px;
+    }
